@@ -110,10 +110,15 @@ const ServiceCard: React.FC<{ icon: React.ReactNode; title: string; description:
 
 const ImageSlider: React.FC = () => {
   const images = [
-    "products/1473809-00-A_1_2000.jpg",
-    "products/9877034-00-A_2.jpg",
-    "products/8765100-00-A_1.jpg",
-    "products/8764766-00-A_2.jpg",
+    "optimec/optimec-1.jpeg",
+    "optimec/optimec-2.jpeg",
+    "optimec/optimec-3.jpeg",
+    "optimec/optimec-4.jpeg",
+    "optimec/optimec-5.jpeg",
+    "optimec/optimec-6.jpeg",
+    "optimec/optimec-7.jpeg",
+    "optimec/optimec-8.jpeg",
+    "optimec/optimec-9.jpeg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

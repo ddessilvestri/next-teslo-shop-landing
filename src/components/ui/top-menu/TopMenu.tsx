@@ -36,6 +36,18 @@ export const TopMenu = () => {
       <div className="hidden sm:block">
         <Link
           className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
+          href="/landing"
+        >
+          Landing
+        </Link>
+        <Link
+          className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
+          href="/homepage"
+        >
+          Home
+        </Link>
+        <Link
+          className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
           href="/gender/men"
         >
           Hombres
